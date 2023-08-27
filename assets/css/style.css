@@ -898,7 +898,7 @@ body.nav-on #page {
 
 #main-nav ul li a {
   display: inline-block;
-  color: #fff;
+  color: #000;
   border: 0;
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
@@ -1695,7 +1695,7 @@ body.nav-on #mobile-nav span:nth-child(3) {
   opacity: 0;
 }
 
-.team-list .owl-prev, .team-list .owl-next{
+.portfolio .owl-prev, .portfolio .owl-next, .team-list .owl-prev, .team-list .owl-next{
   background: none !important; 
   border: none;
   padding: 0 !important;
@@ -2313,7 +2313,7 @@ body.nav-on #mobile-nav span:nth-child(3) {
     width: 200px;
     height: 100%;
     position: fixed;
-    right: -260px;
+    right: -309px;
     top: 0;
     padding: 0 30px;
     -webkit-backface-visibility: hidden;
@@ -2322,7 +2322,7 @@ body.nav-on #mobile-nav span:nth-child(3) {
     transition: all 0.3s ease;
   }
   body.nav-on #main-nav ul {
-    right: 0;
+    right: -310px;
   }
   #main-nav ul li {
     position: relative;
@@ -2352,7 +2352,7 @@ body.nav-on #mobile-nav span:nth-child(3) {
     opacity: 1;
   }
   #header.fixed-nav #main-nav ul li a {
-    color: #fff;
+    color: #000;
   }
   #home-main {
     display: block;
@@ -2454,6 +2454,13 @@ body.nav-on #mobile-nav span:nth-child(3) {
 }
 
 @media only screen and (max-width: 768px) {
+  #main-nav ul {
+    background: #1c2031;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    right: -309px;
+  }
   .wrapper {
     padding: 0 30px;
   }
